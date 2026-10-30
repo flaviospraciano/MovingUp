@@ -10,5 +10,5 @@ window.MU_CONFIG = {
   },
   // Avisos com o app fechado: cole aqui a "chave pública" do par de chaves Web Push.
   // Firebase Console → Configurações do projeto → Cloud Messaging → Configuração da Web → Gerar par de chaves.
-  vapidKey: ""
+  vapidKey: "BP7rGV6kQHY09bkZPrOrELD7ftn_l31s8JBohrbvRpHbw-oKf5utltprkI4WZqPEs6vRVCqOJqLItZziSUQxSgM"
 };
