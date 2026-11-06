@@ -243,6 +243,21 @@ Entrada: Módulos → Estudos p/ concurso → cartão **IBGE · Recenseador**.
 
 Arquivos: os novos `js/52-ibge-tec.js`, `js/53-ibge-por.js`, `js/54-ibge.js`, `js/55-ibge-app.js` e `js/56-habitos-auto.js`, mais `index.html`, `sw.js`, `css/app.css` e este `LEIA-ME.md`.
 
+## 16. Versão 3.1: espaço de estudo do IBGE revisado
+
+- **Hábito de 20 questões:** ao responder 20 questões de concurso no dia (IBGE e Português para concursos somados), o hábito "20 questões de concurso" é marcado sozinho (criado se não existir). Kegel e academia continuam como estavam.
+- **Correções:** o progresso podia se perder entre uma resposta e outra (XP, estrelas, conquistas repetidas); siglas no enunciado saíam como "iBGE"; o simulado mandava as questões em branco para o caderno de erros; "bastante" antes de substantivo passou a ser classificado como pronome indefinido. O banco foi refeito sem quase-repetições e conferido automaticamente: nenhuma questão tem duas certas ou duas erradas.
+- **Trilha do Recenseador:** 38 unidades (todo o edital): ler a teoria → praticar 8 → estrelas (6, 7 ou 8 de primeira) → libera a próxima.
+- **Revisão do dia:** cada acerto agenda a questão para voltar em 1, 3, 7, 16 e 35 dias; errou, volta para o começo.
+- **"Não tenho certeza (vou chutar)":** acerto no chute não conta como aprendido e a questão volta na sessão.
+- **Teoria sem sair da questão**, **Relâmpago V ou F** (20 afirmações da apostila, priorizando as que você erra), **Missão do dia** (+100 XP), **pontos fracos**, **diagnóstico do simulado** e **simulado que continua** mesmo se o app fechar.
+
+Arquivos: o novo `js/57-ibge-plus.js`, mais `js/53-ibge-por.js`, `js/54-ibge.js`, `js/55-ibge-app.js`, `index.html`, `sw.js`, `css/app.css` e este `LEIA-ME.md`.
+
+## 17. Água: copo de 100 ml, meta de 30
+
+O padrão agora é copo de 100 ml e meta de 30 copos (3 L). Quem estava no padrão antigo (8 copos de 250 ml) foi atualizado sozinho. Nos ajustes da água dá para escolher o tamanho do copo (100, 200, 250 ou 300 ml) e a meta (até 60). O cartão ganhou o botão +3 e uma barra no lugar dos copinhos, e cada aviso diz quantos copos beber naquele momento. Arquivos: `js/48-novidades.js`, `css/app.css` e `sw.js`.
+
 ## Mapa dos arquivos
 
 | Arquivo | O que tem |
